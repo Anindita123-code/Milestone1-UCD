@@ -11,6 +11,7 @@
   text-align: center;
   line-height: 20px;
   padding-top: 20px;
+  margin-left: 40px;
 }
 
 #initial {
@@ -39,17 +40,18 @@
 }
 
 .hero-image {
-  min-width: ;height: 300px;
-  width: 75%;
-  background: url("../images/hero.jpg") no-repeat right;
-  background-position: center;
+  height: 300px;
+  width: 100%;
+  background: url("../images/hero.jpg");
+  background-position: right;
   background-repeat: no-repeat;
-  background-size: cover;
-  transition: all 5s ease-in;
+
 }
 
 /* start menu */
-
+.menucontainer{
+    font-size: 0;
+}
 #menu{
   font-size: 120px;
   letter-spacing: 4px;
@@ -76,18 +78,22 @@
 
 .active {
   border-bottom: 1px solid #777777;
+  background-color: #06BDB2;
 }
 /* menu */
 #nav{
-    line-height: 60px;
+    margin: 0;
+    padding: 0;
+    
     background: #8d8d8f;
-    padding: 0px;
+  
 }
+
 .menuitem {
     height: 60px;
     width: 100%;
     text-align: center;
-    background: #06BDB2;
+    background: #A4E4E1;
     font-family: "Rancho";
     font-size: 25px;
     font-weight: 400;
@@ -99,4 +105,38 @@
 .no-padding{
     padding: 0;
     margin: 0;
+}
+
+footer{
+    background-color: #aaaaaa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.footer-links li a i{
+    width: 40px;
+    height: 40px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 18px;
+    line-height: 12px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+.social-link li a i:hover{
+    background-color: #a9e1f1;
+}
+
+.center-list{
+    margin-top: 40px;
+}
+
+.position{
+    margin-left: 80px;
+    
 }
