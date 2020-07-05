@@ -164,8 +164,9 @@ footer{
     background-color: #EDD7FE;
 }
 
-.art-headline{
-    text-align: center;
+#circle-cover-brush h2{
+    margin-left: 100px;
+    text-align: left;
 }
 .body-content{
     text-align: left;
@@ -211,9 +212,15 @@ footer{
   position: absolute;
   z-index: 1;
 }
-.headline-align h2{
+.headline1-align h2{
+    margin-left: 100px;
+    text-align: left;
+}
+.headline2-align h2{
+    margin-right: 100px;
     text-align: right;
 }
+
 /*#circle-cover-pallete div h2{
     text-align: right;
 }*/
