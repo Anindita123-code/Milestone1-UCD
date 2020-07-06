@@ -118,7 +118,7 @@
 
 
 footer{
-    background-color: #aaaaaa;
+    background-color: #b3aa82;
     min-height: 120px;
     margin: 0;
 }
@@ -193,34 +193,84 @@ footer{
     font-size: 20px;
     letter-spacing: 2px;
 }
-#circle-container{
-  width: 180px;
-  height: 180px;
-  border: 1px solid #cccccc;
-  border-width: 1px;
-  border-radius: 50%;
-  margin: 0 auto;
-}
+   /* #circle-container{
+    width: 180px;
+    height: 180px;
+    border: 1px solid #cccccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+    }*/
 #circle-cover-brush{
   height: 200px;
   width: 200px;
   border: 1px solid;
-  background: url("../images/brushes.jpg") no-repeat center ;
+  background: url("../images/artsupplies_small.jpg") no-repeat center ;
   border-radius: 50%;
   bottom: 150px;
   right: 280px;
   position: absolute;
   z-index: 1;
 }
+
+#circle-cover-pallete{
+  height: 200px;
+  width: 300px;
+  background: url("../images/pallete_small_nobg.png") no-repeat center center;
+  border-radius: 50%;
+  bottom: 180px;
+  left: 100px;
+  position: absolute;
+  z-index: 1;
+}
+
 .headline1-align h2{
-    margin-left: 100px;
+    margin-left: 120px;
     text-align: left;
 }
 .headline2-align h2{
-    margin-right: 100px;
+    margin-right: 120px;
     text-align: right;
 }
 
 /*#circle-cover-pallete div h2{
     text-align: right;
 }*/
+
+#Engage{
+  background: url("../images/eventsimage.jpg") no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  overflow: hidden;
+}
+
+#Engage div{
+  color: #fafafafa;
+  background-color: rgba(89, 1, 100, 0.4);
+  width: 50%;
+  height: 200px;
+  float:left;
+  margin: 0;
+  padding:20px;
+  padding-top: 0px;
+  text-align:left;
+  border: 1px solid;
+}
+#Engage h2{
+    
+    font-family: 'Oswald', sans-serif;
+    color: #fafafafa;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 2px;
+    
+}
+#Engage h5{
+    font-family: 'Lato', sans-serif;
+    color: #fafafafa;
+    font-weight: 200150;
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding-left: 10px;
+}
