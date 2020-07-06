@@ -93,6 +93,7 @@
     font-family: "Rancho";
     font-size: 25px;
     font-weight: 400;
+    color: #000000;
     letter-spacing: 2px;
 }
 
@@ -102,11 +103,12 @@
     color: #000000;
 }
 .menuitem a:hover{
-    color:#02488f;
+    color:#89abce;
 }
 
 .active {
   background-color: #06BDB2;
+  color: #FFFFFF;
 }
 .inactive {
     background: #aaaaaa;    
@@ -119,6 +121,7 @@
 
 footer{
     background-color: #b3aa82;
+    /*background-color: #8C7F7F;*/
     min-height: 120px;
     margin: 0;
 }
@@ -273,4 +276,64 @@ footer{
     font-size: 15px;
     letter-spacing: 2px;
     padding-left: 10px;
+}
+
+#form-section {
+    clear: left;
+    background: url("../images/FormBack.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+#form-section div div{
+    padding: 20px;
+    margin-left: 30px;
+}
+#form-section div div h2{
+    font-family: "Kalam", cursive;
+    font-weight: 300px;
+    font-size: 40px;
+}
+.registration-form{
+  /*margin-top: 150px;*/
+  margin-left: 5%;
+  margin-top: 0px;
+  color: #000000;
+  /*background:rgba(60, 60, 60, 0.6);*/
+  line-height: 20px;
+  position: absolute;
+  max-width: 400px;;
+}
+
+.text-input::placeholder{
+    color: rgb(48, 87, 9);
+}
+.text-input
+{   
+    color: #000000; 
+    font-family: "Lato", sans-serif; 
+    font-weight: 300px; 
+    font-size: 12px; 
+    background-color: rgba(116, 167, 116, 0.3);
+   /* height: 30px;*/
+    border-radius: 5%;
+    padding: 5px;
+}
+.label-text{
+    font-family: "Lato", sans-serif; 
+    font-weight: 400px; 
+    font-size: 12px; 
+}
+.register-button{
+    font-family: "Lato", sans-serif; 
+    font-weight: 300px; 
+    background-color: #C63232;
+    border: none;
+    color: white;
+    padding: 5px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 5%;
 }
