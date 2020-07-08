@@ -40,12 +40,14 @@
     color: #e4073e;
 }
 
-.hero-image {
-  height: 300px;
-  width: 100%;
-  background: url("../images/hero.jpg");
-  background-position: right;
-  background-repeat: no-repeat;
+#hero-image {
+          
+    height: 300px;
+    width: 100%;
+    background: url("../images/hero.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+
 
 }
 
@@ -56,7 +58,7 @@
 /* menu */
 
 #nav{
-    background: #8d8d8f;
+    background: #eaeaec;
 }
 
 .menuitem {
@@ -75,20 +77,27 @@
 .menuitem a{
     text-decoration: none;
     margin-top: 20px;
+    color: #000000;
     
 }
 .menuitem a:hover{
-    color:#0166ca;
+    color:#000000;
+    text-decoration: underline;
 }
 
 .menuitem a:active{
     color: white;
 }
-
+/*.menuitem a:visited{
+    color: white;
+}*/
 .active {
-  background-color: #06BDB2;
-  color: white;
+  background-color: #06BDB2;  
 }
+.active a{
+    color: #FFFFFF;
+}
+
 .inactive {
     background: #aaaaaa;    
 }
@@ -308,18 +317,21 @@ footer{
 .text-input
 {   
     color: #000000; 
+    
     font-family: "Lato", sans-serif; 
     font-weight: 300px; 
-    font-size: 12px; 
+    font-size: 15px; 
     background-color: rgba(116, 167, 116, 0.3);
    /* height: 30px;*/
+   border: 1px solid;
+   border-color: rgb(48, 87, 9);
     border-radius: 5%;
     padding: 5px;
 }
 .label-text{
     font-family: "Lato", sans-serif; 
     font-weight: 400px; 
-    font-size: 12px; 
+    font-size: 14px; 
 }
 .register-button{
     font-family: "Lato", sans-serif; 
@@ -331,7 +343,7 @@ footer{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 14px;
+    font-size: 15px;
     border-radius: 5%;
 }
 
