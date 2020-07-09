@@ -377,7 +377,7 @@ div.desc {
   display: inline-block;
 }
 /* ----- Media Query Section for different screen Sizes ---*/
-@media only screen and (max-width: 700px) {
+@media screen and (max-width: 700px) {
     .container {
         width: 49.99999%;
         margin: 6px 0;
@@ -397,12 +397,20 @@ div.desc {
     }
     #Engage h5{
         letter-spacing: 0;
-        font-family: 'Lato', sans-serif;
-        color: #fafafafa;
         font-weight: 150;
         font-size: 15px;
     }
-}
+    #Engage h2{
+        font-weight: 150px;
+        font-size: 20px;
+        letter-spacing: 0px;
+    }
+    #circle-cover-brush{
+        display: none;
+    }
+    #circle-cover-pallete{
+        display: none;
+    }
 
 @media only screen and (max-width: 500px) {
   .container {
