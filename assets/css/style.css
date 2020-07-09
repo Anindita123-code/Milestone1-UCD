@@ -241,31 +241,32 @@ footer{
 
 #Engage div{
   color: #fafafafa;
-  background-color: rgba(89, 1, 100, 0.4);
+  /*background-color: rgb(99, 4, 4, 0.4);*/
+  background-color: rgba(5, 5, 5, 0.404);
+
   width: 50%;
   height: 200px;
   float:left;
   margin: 0;
   padding:20px;
   padding-top: 0px;
-  text-align:left;
-  border: 2px solid;
+  text-align:center;
+  border: 1px solid;
 }
 #Engage h2{
-    
     font-family: 'Oswald', sans-serif;
     color: #fafafafa;
     text-transform: uppercase;
-    font-weight: 300;
-    font-size: 20px;
-    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 4px;
     
 }
 #Engage h5{
     font-family: 'Lato', sans-serif;
     color: #fafafafa;
-    font-weight: 200150;
-    font-size: 15px;
+    font-weight: 150;
+    font-size: 18px;
     letter-spacing: 2px;
     padding-left: 10px;
 }
@@ -393,6 +394,13 @@ div.desc {
     }
     .center-content{
         padding: 0;
+    }
+    #Engage h5{
+        letter-spacing: 0;
+        font-family: 'Lato', sans-serif;
+        color: #fafafafa;
+        font-weight: 150;
+        font-size: 15px;
     }
 }
 
