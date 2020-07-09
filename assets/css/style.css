@@ -164,6 +164,7 @@ footer{
     background-color: #EDD7FE;
 }
 .body-content{
+   
     text-align: left;
     line-height: 30px;
     margin-top: 10%;
@@ -227,7 +228,8 @@ footer{
 #separator-image{
     margin: 0;
     border: 0;
-    padding: 0;    
+    padding: 0;
+    padding-top: 0px;   
 }
 /* bottom section of home page*/
 #Engage{
@@ -389,6 +391,9 @@ div.desc {
     .logo{
         width: 100%;
     }
+    .center-content{
+        padding: 0;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -413,7 +418,9 @@ div.desc {
   .body-content h2{
     font-size: 35px;
     }
-
+    .center-content{
+        padding: 0;
+    }
 }
 
 @media screen and (max-width: 943px)
@@ -435,17 +442,25 @@ div.desc {
         display: none;
     }
     #separator-image{
-        margin-top: 50px;
-        padding: 5%;
+        
+        padding: 0;
+        margin-top: 5%;
         vertical-align: center;
         box-align: center;
         text-align: center;
-        height: 250px;
-        width: 70%;
+        height: 200px;
+        width: 85%;
         background: url("../images/pallete_small.jpg") no-repeat center center;
         border-radius: 50%;
         margin:0 auto;
     }
+    .headline2-align h2{
+        margin-top: 0;
+    }
+    .body-content{
+        margin-top: 0;
+    }
+    
     .menuitem{
         width: 100%;
         margin-left: 5px;
