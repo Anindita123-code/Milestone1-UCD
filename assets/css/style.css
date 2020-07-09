@@ -380,7 +380,7 @@ div.desc {
 @media screen and (max-width: 700px) {
     .container {
         width: 49.99999%;
-        margin: 6px 0;
+        /*margin: 6px 0;*/
     }
     #section-bottom{
         margin-top: 10px;
