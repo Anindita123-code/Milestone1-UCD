@@ -2,7 +2,7 @@
 # Project Name: Arts & More
 
 ## Overview :
-Arts and More is an online platform for Individuals and Artists from different parts of the world to walk in. This platform will help any artist to take a membership for free, and showcase their art-work anything related to drawing, painting and calligraphy or any kind of visual arts. 
+Arts and More is an online platform for Individuals and Artists from different parts of the world to collaborate. This platform will help any artist to take a membership for free, and showcase their art-work anything related to drawing, painting and calligraphy or any kind of visual arts. 
 The site will also display the events and workshops that are scheduled.
 
 ## UX:
@@ -12,7 +12,7 @@ This project aims to fulfil the user stories as mentioned below
 3. As a user, I should be able to see the artworks of any artist (catalog)
 4. As a user I should be able to see a gist of the event’s and workshops on the home page.
 
-The wireframes of the pages of Arts & More are linked below for further references
+The wireframes of the pages (Desktop only) of Arts & More are linked below for further references
 ***Wireframe Link to Home Page*** [https://github.com/Anindita123-code/Milestone1-UCD/blob/master/Wireframes/AAM_HomePage.pdf] 
 ***Wireframe Link to Catalog Page*** [https://github.com/Anindita123-code/Milestone1-UCD/blob/master/Wireframes/AAM_ArtistryPage.pdf]
 ***Wireframe Link to Registration Page*** [https://github.com/Anindita123-code/Milestone1-UCD/blob/master/Wireframes/AAM_BeWithUS.pdf]
@@ -67,4 +67,5 @@ Anindita123-code/Milestone1-UCD
 * The images used in this site has been taken from depositimages and shutterstock
 * The paintings in the Artistry page has been provided by the artists of the below mentioned art school:
     [TheColorFactory.in](https://thecolorfactory.in/)
+* I have referred w3c.org and stackoverflow for help on css. 
     
