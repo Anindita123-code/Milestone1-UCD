@@ -32,7 +32,7 @@ It also provides information of the current Events and Workshops in their countr
  
 ## Technologies used
 The following technologies, frameworks and libraries have been used to create this website.
-1. HTML 
+1. HTML5
 2. CSS
 3. Bootstrap framework [Bootstrap](https://getbootstrap.com)
 4. Font Awesome [FontAwesome](https://fontawesome.com/v4.7.0/icons/)
@@ -64,6 +64,7 @@ Anindita123-code/Milestone1-UCD
 
 ## Credits
 * The fonts used in this site has been taken from Google Fonts.
+* Figma - Desktop version for creating Wireframes for this project [Figma](https://www.figma.com/)
 * The images used in this site has been taken from depositimages and shutterstock
 * The paintings in the Artistry page has been provided by the artists of the below mentioned art school:
     [TheColorFactory.in](https://thecolorfactory.in/)

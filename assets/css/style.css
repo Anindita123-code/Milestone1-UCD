@@ -12,10 +12,7 @@
     margin-right: 0px;
     margin-left: 0px;
 }
-/*
-.list-inline-item{
-    padding: 1px;
-}*/
+
 section{
     background: #5B0A0A;
 }
@@ -26,7 +23,6 @@ section{
     border: 1px solid;
     height: 300px;
     width: 418px;
-  
     text-align: center;
     line-height: 20px;
     padding:50px;
@@ -268,7 +264,6 @@ footer{
     margin-left: 5%;
     margin-top: 0px;
     color: #000000;
-    /*background:rgba(60, 60, 60, 0.6);*/
     line-height: 20px;
     position: absolute;
     max-width: 400px;;
@@ -282,7 +277,6 @@ footer{
     font-weight: 300px; 
     font-size: 15px; 
     background-color: rgba(116, 167, 116, 0.3);
-   /* height: 30px;*/
     border: 1px solid;
     border-color: rgb(48, 87, 9);
     border-radius: 5%;
