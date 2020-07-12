@@ -22,7 +22,7 @@ section{
 .logo {
     border: 1px solid;
     height: 300px;
-    width: 418px;
+    width: 30%;
     text-align: center;
     line-height: 20px;
     padding:50px;
@@ -53,10 +53,12 @@ section{
 }
 #hero-image {
     height: 300px;
-    width: 100%;
+    width: 70%;
     background: url("../images/hero.jpg");
     background-position: right;
     background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
 }
 .no-margin{
     padding: 0;
@@ -101,7 +103,6 @@ section{
 /* Footer styles */
 footer{
     background-color: #b3aa82;
-    /*background-color: #8C7F7F;*/
     min-height: 120px;
     margin: 0;
 }
@@ -356,7 +357,7 @@ div.desc {
 @media screen and (max-width: 1393px){
     .logo {
         height: 300px;
-        width: 400px;
+        width: 30%;
         line-height: 20px;
         padding:30px;
         text-align: center;
@@ -365,6 +366,9 @@ div.desc {
         background: url("../images/hero_ipad1.jpg");
         background-position: right;
         background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        width: 70%;
     }
     #circle-cover-brush{
         height: 190px;
@@ -452,6 +456,9 @@ div.desc {
         width: 100%;
     }
     .logo{
+        width: 100%;
+    }
+    #hero-image{
         width: 100%;
     }
     .center-content{
