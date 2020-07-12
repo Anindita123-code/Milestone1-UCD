@@ -40,7 +40,7 @@ The following technologies, frameworks and libraries have been used to create th
 
 ## Testing
 This website has been tested manually using Google Chrome browser only. This is yet to be tested with other browsers.
-
+The website works on mobile phones, Ipads and laptop screens.
 1.  **Home page testing**
     * testing done to see how the logo and the navbar positions themselves when the screen width changes from laptop to mobile. 
     * testing done to see how the writeups position themselves on changes of screen width.
